@@ -54,13 +54,6 @@ public class HashHelpers
     {
         HashAlgorithm SHAalg = null;
         {
-            /*SHA switch
-            {
-                "SHA512" => SHAalg = SHA512.Create(),
-                "SHA384" => SHAalg = SHA384.Create(),
-                "SHA256" => SHAalg = SHA256.Create(),
-                _ => throw new ArgumentException("SHA is either SHA512, SHA384 or SHA256"),
-            };*/
             if(SHA == "SHA512")
                 SHAalg = SHA512.Create();//SHA3_512.Create();
             else if(SHA == "SHA384")
