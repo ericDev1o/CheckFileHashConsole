@@ -21,8 +21,8 @@ public class HashHelpers
     public static void MatchHashes(string expectedHash, string computedHash)
     {
         if(computedHash == expectedHash)
-            Console.WriteLine($"OK, expected hash is {expectedHash}, computed hash is {computedHash}");
-        else Console.WriteLine($"KO, expected is {expectedHash}, computed hash is {computedHash}");
+            Console.WriteLine($"OK: expected hash is {expectedHash}, computed hash is {computedHash}");
+        else Console.WriteLine($"KO: expected is {expectedHash}, computed hash is {computedHash}");
     }
 
     /*
@@ -52,7 +52,7 @@ public class HashHelpers
     */
     public static HashAlgorithm HashToUse(string SHA)
     {
-        HashAlgorithm SHAalg = null;
+        HashAlgorithm SHAalg;
         {
             if(SHA == "SHA512")
                 SHAalg = SHA512.Create();//SHA3_512.Create();
