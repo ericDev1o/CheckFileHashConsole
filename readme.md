@@ -27,6 +27,10 @@ No further check is planned.
         dotnet clean .\CheckFileHash.csproj
         dotnet build -c release .\CheckFileHash.csproj
         dotnet run --no-build --no-restore .\CheckFileHAsh.csproj
+### 17/05/2024 13:00
+winget update 
+    Ok from 8.0.204 to 8.0.205
+    Ko to 8.0.300
 ### used
 * after download and check a file for viruses,
 * to checksum the file integrity with this hash tool.
