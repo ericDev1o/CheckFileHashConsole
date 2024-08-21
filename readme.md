@@ -80,5 +80,5 @@ right-click -> 7-Zip -> CRC SHA
 ###### interest point
 consider as means to check for the SHA512 availability:
   - try right-click -> 7-Zip
-  - observe the possibly reliable page https://msdn.rg-adguard.net/
-      - why possibly reliable? C.f. ChatGPT Ad-Guard.net, as the official website of the AdGuard company, seems to be.
+      - observe the possibly reliable page https://msdn.rg-adguard.net/ 
+        - why possibly reliable? C.f. ChatGPT Ad-Guard.net, as the official website of the AdGuard company, seems to be.
