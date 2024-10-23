@@ -64,6 +64,10 @@ Windows 10
 "
 
 Despite the progress bar no sucess message is displayed.
+### 23/10/24
+PS C:\Users\ericf\source\repos\CheckFileHashConsole> winget update Microsoft.DotNet.SDK.9
+No installed package found matching input criteria.
+==> fallback to previous manual hash usage is done.
 ### used
 * after download and check a file for viruses,
 * to checksum the file integrity with this hash tool.
