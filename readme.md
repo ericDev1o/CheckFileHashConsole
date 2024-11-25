@@ -68,6 +68,8 @@ Despite the progress bar no sucess message is displayed.
 PS C:\Users\ericf\source\repos\CheckFileHashConsole> winget update Microsoft.DotNet.SDK.9
 No installed package found matching input criteria.
 ==> fallback to previous manual hash usage is done.
+### 25/11/24
+winget is OK and reread.
 ### used
 * after download and check a file for viruses,
 * to checksum the file integrity with this hash tool.
