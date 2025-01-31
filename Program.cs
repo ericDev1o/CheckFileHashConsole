@@ -1,5 +1,5 @@
-﻿string expectedHash = "29091a2b4d08f7fdc77065f2805a82afae0129a6b886caec71124016843a29c6abcec828794aef1c9a73a84df3f7b7258863991f61a780ea362575da0ca6879b";
-string path = @"C:\softwareDownloads\dotnet-sdk-9.0.100-rc.2.24474.11-win-x64.exe";
+﻿string expectedHash = "91505782b13937392bd73d1531c01807275ef476f9e37f8ef22c2cee4b19be8282207149b4eb958668dee0c05cef02b0a6bc375b71e8e94864c3d89dea7ba534";
+string path = @"C:\softwareDownloads\dotnet-sdk-9.0.102-win-x64.exe";
 string SHA = "SHA512";
 CheckFileHash.Helpers.HashHelpers.MatchHashes
 (

@@ -78,6 +78,9 @@ in the terminal
 * change in Program.cs the checksum and directory values
 * dotnet build -c release ./CheckFileHash.csproj
 * dotnet run -c release --no-build --no-restore ./CheckFileHash.csproj
+### 31/1/25
+winget install Microsoft.DotNet.SDK.9 checks the previously installed 9.0.102 version OK.
+Program.cs is only done to check that the .net 9 SDK run is OK.
 
 #### alternatives for better used open source project time
 ##### 7-Zip
