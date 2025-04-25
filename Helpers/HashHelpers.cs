@@ -60,7 +60,7 @@ public class HashHelpers
                 SHAalg = SHA384.Create();//SHA3_384.Create();
             else if(SHA == "SHA256")
                 SHAalg = SHA256.Create();//SHA3_256.Create();
-            else throw new ArgumentException("Accepted SHAs are at least SHA512, SHA384 or SHA256");
+            else throw new ArgumentException("Accepted SHAs are at least SHA512 or else SHA384 or else SHA256");
             return SHAalg;
         }
     }

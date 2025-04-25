@@ -1,6 +1,6 @@
-﻿string expectedHash = "91505782b13937392bd73d1531c01807275ef476f9e37f8ef22c2cee4b19be8282207149b4eb958668dee0c05cef02b0a6bc375b71e8e94864c3d89dea7ba534";
-string path = @"C:\softwareDownloads\dotnet-sdk-9.0.102-win-x64.exe";
-string SHA = "SHA512";
+﻿string expectedHash = "0bbddfce63ff99ef3bcc4d8af9f4c6793af9902470722c018476f04c713e440b";
+string path = @"C:\softwareDownloads\gimp-3.0.2-setup-1.exe";
+string SHA = "SHA256";
 CheckFileHash.Helpers.HashHelpers.MatchHashes
 (
     expectedHash, 
